@@ -12,7 +12,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject optionPanel;
     public Image background;
     public Image charact;
-
+    //public AudioClip source;
     static Story story;
     Text nametag;
     Text message;
@@ -22,6 +22,8 @@ public class DialogueManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+       
         story = new Story(inkFile.text);
         nametag = textBox.transform.GetChild(0).GetComponent<Text>();
         message = textBox.transform.GetChild(1).GetComponent<Text>();
@@ -33,6 +35,8 @@ public class DialogueManager : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
+
+            //source.Play;
             //Is there more to the story?
             if(story.canContinue)
             {
@@ -46,8 +50,11 @@ public class DialogueManager : MonoBehaviour
             else
             {
                 FinishDialogue();
+
+
             }
         }
+    
     }
 
     // Finished the Story (Dialogue)
@@ -173,4 +180,7 @@ public class DialogueManager : MonoBehaviour
         background.sprite = Resources.Load<Sprite>(_name);
     }
 
+
+
+    
 }
