@@ -15,11 +15,11 @@ C:/Users/jborbolla/Documents/New folder/scripting final/Murder_Mystery_Final
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59262
+62153
 Successfully changed project path to: C:/Users/jborbolla/Documents/New folder/scripting final/Murder_Mystery_Final
 C:/Users/jborbolla/Documents/New folder/scripting final/Murder_Mystery_Final
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 44.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -35,18 +35,18 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002458 seconds.
+Registered in 0.002531 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 41.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.447 seconds
+- Completed reload, in  1.475 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1447ms)
+	ReloadAssembly (1476ms)
 		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
@@ -54,70 +54,70 @@ Domain Reload Profiling:
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (393ms)
-			LoadAssemblies (59ms)
+			LoadAssemblies (58ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (139ms)
+			SetupTypeCache (134ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (155ms)
+			SetupLoadedEditorAssemblies (160ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (39ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010187 seconds.
+Registered in 0.010245 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 37.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.150 seconds
+- Completed reload, in  1.107 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1151ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (1109ms)
+		BeginReloadAssembly (139ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (948ms)
-			LoadAssemblies (108ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (913ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
+			SetupTypeCache (264ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (412ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (393ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (39ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (275ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (260ms)
 				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 99.4 MB.
 System memory in use after: 99.5 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2662.
-Total: 3.345600 ms (FindLiveObjects: 0.202100 ms CreateObjectMapping: 0.068400 ms MarkObjects: 3.001700 ms  DeleteObjects: 0.072500 ms)
+Total: 2.940900 ms (FindLiveObjects: 0.177900 ms CreateObjectMapping: 0.073400 ms MarkObjects: 2.617000 ms  DeleteObjects: 0.071600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,56 +131,24 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Start_Menu.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Start_Menu.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c66c4b114284f025a6ed4a1f898131') in 0.012237 seconds 
-  Import took 0.015465 seconds .
+  path: Assets/Scripts/MM_Script.ink_Prologue_v6.json
+  artifactKey: Guid(d602a55744c9c044eb4da168b497f51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MM_Script.ink_Prologue_v6.json using Guid(d602a55744c9c044eb4da168b497f51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6fd0d83c447fc6d37de7443ea0b972') in 0.052231 seconds 
+  Import took 0.055381 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.380913 seconds.
-  path: Assets/Resources/slow-2020-06-18_-_8_Bit_Retro_Funk_-_www.FesliyanStudios.com_David_Renda.mp3
-  artifactKey: Guid(c866d8ddbd3a66d41bc684f1d8deedba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/slow-2020-06-18_-_8_Bit_Retro_Funk_-_www.FesliyanStudios.com_David_Renda.mp3 using Guid(c866d8ddbd3a66d41bc684f1d8deedba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f846941b06754f325053f2a7f7a255c') in 0.106176 seconds 
-  Import took 0.109876 seconds .
+  Time since last request: 24.551579 seconds.
+  path: Assets/Scripts/MM_Script.ink_Prologue_v8.json
+  artifactKey: Guid(748c7b6a4b53ecc4b9207803ec006a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MM_Script.ink_Prologue_v8.json using Guid(748c7b6a4b53ecc4b9207803ec006a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303df6e8bdf50c93fb7dbadd3204e38d') in 0.004684 seconds 
+  Import took 0.008122 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.605540 seconds.
-  path: Assets/Resources/stinger-2020-06-18_-_8_Bit_Retro_Funk_-_www.FesliyanStudios.com_David_Renda.mp3
-  artifactKey: Guid(9d81fc05cb4fb5b40b7ae1768b9825d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/stinger-2020-06-18_-_8_Bit_Retro_Funk_-_www.FesliyanStudios.com_David_Renda.mp3 using Guid(9d81fc05cb4fb5b40b7ae1768b9825d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8931a4acd61d6dab1ad549fb5a7fdd9') in 0.016525 seconds 
-  Import took 0.020801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001298 seconds.
-  path: Assets/Resources/stinger-2020-06-18_-_8_Bit_Retro_Funk_-_www.FesliyanStudios.com_David_Renda.mp3
-  artifactKey: Guid(9d81fc05cb4fb5b40b7ae1768b9825d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/stinger-2020-06-18_-_8_Bit_Retro_Funk_-_www.FesliyanStudios.com_David_Renda.mp3 using Guid(9d81fc05cb4fb5b40b7ae1768b9825d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8931a4acd61d6dab1ad549fb5a7fdd9') in 0.009938 seconds 
-  Import took 0.013928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.627508 seconds.
-  path: Assets/Resources/stinger-2020-06-18_-_8_Bit_Retro_Funk_-_www.FesliyanStudios.com_David_Renda 1.mp3
-  artifactKey: Guid(f6aadf9d53f3db847a8558e0664e70fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/stinger-2020-06-18_-_8_Bit_Retro_Funk_-_www.FesliyanStudios.com_David_Renda 1.mp3 using Guid(f6aadf9d53f3db847a8558e0664e70fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682d9d9c50a01770bc734eab639a5d67') in 0.019740 seconds 
-  Import took 0.023645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.182264 seconds.
-  path: Assets/Resources/stinger-2021-08-30_-_Boss_Time_-_www.FesliyanStudios.com.mp3
-  artifactKey: Guid(042a45288e578e049af8e850cdc90814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/stinger-2021-08-30_-_Boss_Time_-_www.FesliyanStudios.com.mp3 using Guid(042a45288e578e049af8e850cdc90814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0765cee1de040bfe737546b5e3d6bc9') in 0.012412 seconds 
-  Import took 0.016311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.984707 seconds.
-  path: Assets/Resources/2019-01-15_-_You_Just_Got_Pwned_-_David_Fesliyan.mp3
-  artifactKey: Guid(7b5c289f0e1c0df458ce4f3e22f343f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/2019-01-15_-_You_Just_Got_Pwned_-_David_Fesliyan.mp3 using Guid(7b5c289f0e1c0df458ce4f3e22f343f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0979cda8a751a755a9cc3f1841cf6e5f') in 0.017756 seconds 
-  Import took 0.021617 seconds .
+  Time since last request: 3.765240 seconds.
+  path: Assets/Scripts/DialogueManager.cs
+  artifactKey: Guid(222ba2156762a4549803c758b1529459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueManager.cs using Guid(222ba2156762a4549803c758b1529459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31382b8990f407283dd8e18eef6f34c2') in 0.008652 seconds 
+  Import took 0.012047 seconds .
 
